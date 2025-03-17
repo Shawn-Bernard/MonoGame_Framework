@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
@@ -29,9 +29,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Nez-master\Nez.Portable\Nez.MG38.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Content\Nez\" />
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
     <Message Text="Restoring dotnet tools" Importance="High" />
